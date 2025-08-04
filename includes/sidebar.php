@@ -27,7 +27,11 @@
                     <li class="dashboard-nav-item">
                         <a href="." class="dashboard-nav-link active">
                             <div class="dashboard-nav-link-left">
-                                <i class="fa-solid fa-house-chimney link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <div class="sidebar-icon-area">
+                                        <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-1.svg" alt="">
+                                    </div>
+                                </div>                                
                                 <span>Dashboards</span>
                             </div>
                         </a>
@@ -35,7 +39,9 @@
                     <li class="dashboard-nav-item">
                         <a href="profile.php" class="dashboard-nav-link">
                             <div class="dashboard-nav-link-left">
-                                <i class="fa-solid fa-user link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-2.svg" alt="">
+                                </div>
                                 <span>My Profile</span>
                             </div>
                         </a>
@@ -43,7 +49,9 @@
                     <li class="dashboard-nav-item">
                         <a href="#" class="dashboard-nav-link">
                             <div class="dashboard-nav-link-left">
-                                <i class="fa-solid fa-list link-icon"></i>
+                               <div class="sidebar-icon-area">
+                                <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-3.svg" alt="">
+                               </div>
                                 <span>Buy offers</span>
                             </div>
                         </a>
@@ -51,7 +59,9 @@
                     <li class="dashboard-nav-item">
                         <button class="dashboard-nav-link sidebar-dropdown">
                             <div class="dashboard-nav-link-left">
-                                <i class="fa-solid fa-message link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-4.svg" alt="">
+                                </div>
                                 <span>Messages</span>
                             </div>
                             <i class="fa-solid fa-angle-down"></i>
@@ -60,7 +70,9 @@
                             <li class="dashboard-nav-subitem">
                                 <button class="dashboard-nav-sublink sidebar-sb-dropdown">
                                     <div class="dashboard-nav-link-left">
-                                        <i class="fa-solid fa-message link-icon"></i>
+                                        <div class="sidebar-icon-area">
+                                            <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-4.svg" alt="">
+                                        </div>
                                         <span>Inbox</span>
                                     </div>
                                     <i class="fa-solid fa-angle-down"></i>
@@ -116,7 +128,9 @@
                     <li class="dashboard-nav-item">
                         <button class="dashboard-nav-link sidebar-dropdown">
                             <div class="dashboard-nav-link-left">
-                                <i class="fas fa-gift link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-5.svg" alt="">
+                                </div>
                                 <span>Products</span>
                             </div>
                             <i class="fa-solid fa-angle-down"></i>
@@ -169,7 +183,9 @@
                     <li class="dashboard-nav-item">
                         <button class="dashboard-nav-link sidebar-dropdown">
                             <div class="dashboard-nav-link-left">
-                                <i class="fas fa-gift link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-6.svg" alt="">
+                                </div>
                                 <span>Company Profile</span>
                             </div>
                             <i class="fa-solid fa-angle-down"></i>
@@ -222,7 +238,9 @@
                     <li class="dashboard-nav-item">
                         <button class="dashboard-nav-link sidebar-dropdown">
                             <div class="dashboard-nav-link-left">
-                                <i class="fas fa-gift link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-7.svg" alt="">
+                                </div>
                                 <span>Company Details</span>
                             </div>
                             <i class="fa-solid fa-angle-down"></i>
@@ -296,7 +314,9 @@
                     <li class="dashboard-nav-item">
                         <a href="buy-offer.php" class="dashboard-nav-link">
                             <div class="dashboard-nav-link-left">
-                                <i class="fas fa-gift link-icon"></i>
+                               <div class="sidebar-icon-area">
+                                <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-8.svg" alt="">
+                               </div>
                                 <span>Buying Request</span>
                             </div>
                         </a>
@@ -304,7 +324,9 @@
                     <li class="dashboard-nav-item">
                         <a href="trade-alerts.php" class="dashboard-nav-link">
                             <div class="dashboard-nav-link-left">
-                                <i class="fa-solid fa-bell link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-9.svg" alt="">
+                                </div>
                                 <span>Trade Alerts</span>
                             </div>
                         </a>
@@ -312,7 +334,9 @@
                     <li class="dashboard-nav-item">
                         <button class="dashboard-nav-link sidebar-dropdown">
                             <div class="dashboard-nav-link-left">
-                                <i class="fa-solid fa-list link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-3.svg" alt="">
+                                </div>
                                 <span>My Contacts</span>
                             </div>
                             <i class="fa-solid fa-angle-down"></i>
@@ -344,7 +368,9 @@
                     <li class="dashboard-nav-item">
                         <a href="user.php" class="dashboard-nav-link">
                             <div class="dashboard-nav-link-left">
-                                <i class="fa-solid fa-users link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-10.svg" alt="">
+                                </div>
                                 <span>Sub Accounts</span>
                             </div>
                         </a>
@@ -352,7 +378,9 @@
                     <li class="dashboard-nav-item">
                         <button class="dashboard-nav-link sidebar-dropdown">
                             <div class="dashboard-nav-link-left">
-                                <i class="fa-solid fa-gear link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-11.svg" alt="">
+                                </div>
                                 <span>Account Setting</span>
                             </div>
                             <i class="fa-solid fa-angle-down"></i>
@@ -384,7 +412,9 @@
                     <li class="dashboard-nav-item">
                         <button class="dashboard-nav-link sidebar-dropdown">
                             <div class="dashboard-nav-link-left">
-                                <i class="fas fa-gift link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-12.svg" alt="">
+                                </div>
                                 <span>Amazon FBA</span>
                             </div>
                             <i class="fa-solid fa-angle-down"></i>
@@ -393,7 +423,9 @@
                     <li class="dashboard-nav-item">
                         <a href="escrow-account-create.php" class="dashboard-nav-link">
                             <div class="dashboard-nav-link-left">
-                                <i class="fas fa-gift link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-13.svg" alt="">
+                                </div>
                                 <span>Escrow Account</span>
                             </div>
                         </a>
@@ -401,7 +433,9 @@
                     <li class="dashboard-nav-item">
                         <button class="dashboard-nav-link sidebar-dropdown">
                             <div class="dashboard-nav-link-left">
-                                <i class="fa-solid fa-ticket fa-rotate-by link-icon" style="--fa-rotate-angle: 110deg;"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-14.svg" alt="">
+                                </div>
                                 <span>Trouble Ticket</span>
                             </div>
                             <i class="fa-solid fa-angle-down"></i>
@@ -410,7 +444,9 @@
                     <li class="dashboard-nav-item">
                         <button class="dashboard-nav-link sidebar-dropdown">
                             <div class="dashboard-nav-link-left">
-                                <i class="fa-solid fa-headset link-icon"></i>
+                                <div class="sidebar-icon-area">
+                                    <img class="img-fluid sidebar-icon link-icon" src="./assets/images/sidebar-icons/sidebar-icon-15.svg" alt="">
+                                </div>
                                 <span>Live Support</span>
                             </div>
                             <i class="fa-solid fa-angle-down"></i>

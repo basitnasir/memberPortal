@@ -100,18 +100,26 @@
     transform: rotate(0);
 }
 
-.dashboard-nav-link.active i.fa-angle-down,
-.dashboard-nav-link.active .link-icon {
+.dashboard-nav-link.active i.fa-angle-down {
     color: white;
 }
 
-.dashboard-nav-link .link-icon,
+.dashboard-nav-link.active .link-icon {
+    filter: brightness(3);
+}
+
+.sidebar-icon-area {
+    width: 20px;
+    text-align: center;
+}
+
+/* .dashboard-nav-link .link-icon,
 .dashboard-nav-sublink .link-icon {
     width: 20px;
     text-align: center;
     font-size: 1.6rem;
     color: #6C757D;
-}
+} */
 
 .dashboard-nav {
     flex-grow: 1;
