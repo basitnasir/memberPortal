@@ -1,0 +1,66 @@
+.code-of-conduct-section {
+    padding-top: 40px;
+}
+
+.section-top {
+    margin-bottom: 20px;
+}
+
+.code-of-conduct-box {
+    padding: 32px 0;
+    background-color: white;
+    border-radius: 3.5px;
+}
+
+.form-submit-btn {
+    margin-left: 40px;
+}
+
+.company-table-main {
+    margin-top: 20px;
+}
+
+.company-table {
+    width: 100%;
+}
+
+.company-table thead tr th {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--dark-gray);
+    padding: 12px 10px 12px;
+}
+
+.company-table thead tr,
+.company-table tbody tr {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.company-table thead tr th:first-child,
+.company-table tbody tr td:first-child {
+    padding-left: 40px;
+}
+
+.company-table thead tr th:last-child,
+.company-table tbody tr td:last-child {
+    padding-right: 40px;
+}
+
+.company-table tbody tr td {
+    padding: 11.5px 10px 11.5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: #7E868D;
+}
+
+.company-table tbody tr td a {
+    color: #7E868D;
+}
+
+.company-table tbody tr:nth-child(odd) {
+    background-color: #F4F7FC;
+}

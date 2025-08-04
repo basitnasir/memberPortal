@@ -1,0 +1,81 @@
+.company-section {
+    padding-top: 40px;
+}
+
+.company-section .add-product-list-main {
+    max-width: 750px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+    border-radius: 3.5px;
+    padding: 19px 41px 60px 46px;
+}
+
+.company-section .add-new-product-box {
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 26px;
+}
+
+.company-section .add-new-product-box .product-category-list {
+    margin-bottom: 31px;
+}
+
+.company-section .formgroup-area .formgroup-area-right textarea.dash-form-input {
+    height: 95px;
+    resize: none;
+}
+
+.company-section .formgroup-area .formgroup-area-right {
+    width: 58%;
+}
+
+.company-section .formgroup-area .formgroup-area-left {
+    width: 41%;
+}
+
+.add-new-product-box .form-submit-btn {
+    margin-top: 17px;
+}
+
+.company-section .formgroup-area .check-square {
+    background-color: #F0F4F9;
+    border: none;
+    width: 16px;
+    height: 16px;
+}
+
+.company-section .formgroup-area .markets-distrubution-list .check-square,
+.company-section .formgroup-area .main-markets-list .check-square {
+    height: 15px;
+    width: 15px;
+    background-color: #D9D9D9;
+}
+
+.company-section .markets-distrubution-list,
+.company-section .main-markets-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px 5px;
+}
+
+.company-section.trade-detail .add-product-list-main {
+    padding: 19px 25px 60px 46px;
+    max-width: 800px;
+}
+
+.company-section .markets-distrubution-list li.pro-check-list-item {
+    width: 24.1%;
+}
+
+.company-section .main-markets-list li.pro-check-list-item {
+    width: 19.1%;
+}
+
+.company-section .markets-distrubution-list li.pro-check-list-item .pro-check-label,
+.company-section .main-markets-list li.pro-check-list-item .pro-check-label {
+    color: #4D4F50;
+    width: fit-content;
+}

@@ -1,0 +1,43 @@
+.escrow-account-section {
+    padding-top: 40px;
+}
+
+.section-top {
+    margin-bottom: 28px;
+}
+
+.escrow-account-box {
+    background: #FFFFFF;
+    border-radius: 3.5px;
+    padding: 35px 38px 60px;
+}
+
+.escrow-account-section .formgroup-area {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 19px;
+}
+
+.escrow-account-box .dash-form-input {
+    max-width: 736px;
+    width: 100%;
+}
+
+.escrow-account-box textarea.dash-form-input {
+    height: 64px;
+}
+
+.escrow-account-box .form-label {
+    width: 9.5%;
+}
+
+.form-submit-btn {
+    padding: 8.5px 24px;
+}
+
+.form-submit-btn {
+    margin-top: 25px;
+}

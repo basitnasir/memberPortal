@@ -1,0 +1,106 @@
+.buy-offer-section,
+.trade-alerts-section {
+    padding-top: 40px;
+}
+
+.section-top {
+    margin-bottom: 20px;
+}
+
+.buy-offer-box {
+    padding: 27px 0 36px;
+    background-color: white;
+    border-radius: 3.5px;
+}
+
+.form-submit-btn {
+    margin-left: 40px;
+    padding: 8.5px 19px;
+}
+
+.buy-offer-search-input,
+.buy-offer-search-input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: normal;
+    color: #7E868D;
+}
+
+.buy-offer-search-input {
+    padding: 12.5px 18px;
+    background: #F4F7FC;
+    border: none;
+    outline: none;
+    max-width: 656px;
+    width: 100%;
+}
+
+.buy-offer-search-form {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.buy-offer-search-form .form-submit-btn {
+    padding: 12px 14px;
+    min-width: auto;
+    max-width: 79px;
+    width: 100%;
+}
+
+
+/* table css start */
+
+.buy-offer-table-main {
+    margin-top: 30px;
+}
+
+.buy-offer-table {
+    width: 100%;
+}
+
+.buy-offer-table thead tr th {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--dark-gray);
+    padding: 12px 10px 12px;
+}
+
+.buy-offer-table thead tr,
+.buy-offer-table tbody tr {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.buy-offer-table thead tr th:first-child,
+.buy-offer-table tbody tr td:first-child {
+    padding-left: 40px;
+}
+
+.buy-offer-table thead tr th:last-child,
+.buy-offer-table tbody tr td:last-child {
+    padding-right: 40px;
+}
+
+.buy-offer-table tbody tr td {
+    padding: 11.5px 10px 11.5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: #7E868D;
+}
+
+.buy-offer-table tbody tr td a {
+    color: #7E868D;
+}
+
+/* table css end */
+
+.px-40px {
+    padding-right: 40px;
+    padding-left: 40px;
+}

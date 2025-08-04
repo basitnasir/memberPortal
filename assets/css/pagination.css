@@ -1,0 +1,132 @@
+/* Pagination start */
+
+.paginationMain ul.pagination li a {
+    padding: 15px 10px 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 17px;
+    letter-spacing: -0.28px;
+    color: var(--dark-gray);
+    border: none;
+    white-space: nowrap;
+}
+
+.paginationMain .pagination .page-item:first-child,
+.paginationMain .pagination .page-item:last-child {
+    width: 97px;
+}
+
+.paginationMain .page-link:hover,
+.paginationMain ul.pagination li a.active {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: #dee2e6;
+}
+
+.paginationMain ul.pagination li a.page-link:focus {
+    background-color: var(--primary-color);
+    box-shadow: none;
+    color: white;
+}
+
+.paginationMain .pagination .page-item:first-child .page-link {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.paginationMain .pagination .page-item:last-child .page-link {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.paginationMain .pagination .page-item {
+    border-right: 2px solid #E9F0F6;
+    width: 62px;
+}
+
+.paginationMain .pagination .page-item:last-child {
+    border-right: none;
+}
+
+.paginationMain .page-item:not(:first-child) .page-link {
+    margin-left: unset;
+}
+
+.paginationMain {
+    margin-top: 22px;
+}
+
+.paginationMain .pagination {
+    justify-content: end;
+    gap: 5px 0;
+}
+
+/* Pagination end */
+
+/* responsive media query css start */
+
+@media (max-width: 1399px) {
+    .paginationMain ul.pagination li a {
+        padding: 14px 10px 14px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    .paginationMain ul.pagination li a {
+        padding: 12px 5px 12px;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .paginationMain .pagination .page-item:first-child {
+        width: 18%;
+    }
+
+    .paginationMain .pagination .page-item {
+        width: 8%;
+    }
+
+    .paginationMain .pagination .page-item:last-child {
+        width: 8%;
+    }
+
+    .paginationMain .pagination {
+        justify-content: center;
+        gap: 10px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .paginationMain ul.pagination li a {
+        padding: 10px 5px 10px;
+    }
+
+    .paginationMain .pagination .page-item:first-child {
+        width: fit-content;
+    }
+
+    .paginationMain .pagination .page-item:last-child {
+        width: 10%;
+    }
+
+    .paginationMain .pagination {
+        gap: 5px 0;
+    }
+
+    .paginationMain .pagination .page-item {
+        width: 9%;
+    }
+}
+
+@media (max-width: 425px) {
+    .paginationMain .pagination .page-item {
+        width: 10%;
+    }
+}
+
+/* responsive media query css end */

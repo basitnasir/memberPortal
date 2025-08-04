@@ -1,0 +1,20 @@
+.footer {
+    background-color: #F4F7FC;
+    padding: 30px 71px 20px;
+}
+
+.footer-nav-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 11px;
+}
+
+.footer-nav-link,
+.copyright-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 22px;
+    color: rgba(62, 70, 118, 0.75);
+}

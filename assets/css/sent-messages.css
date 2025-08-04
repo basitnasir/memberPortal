@@ -1,0 +1,73 @@
+.sent-messages-section {
+    padding-top: 40px;
+}
+
+.section-top {
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* sent messages table css start */
+
+.sent-messages-table {
+    width: 100%;
+}
+
+.sent-messages-table thead tr th {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 22px;
+    color: var(--dark-gray);
+    padding: 29px 5px 29px 5px;
+}
+
+.sent-messages-table thead tr th:first-child {
+    border-radius: 3.5px 0px 0px 0px;
+    padding-left: 25px;
+}
+
+.sent-messages-table thead tr th:last-child {
+    border-radius: 0px 3.5px 0px 0px;
+}
+
+.sent-messages-table tbody tr td:first-child {
+    padding-left: 25px;
+}
+
+.sent-messages-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.sent-messages-table thead tr,
+.sent-messages-table tbody tr {
+    background-color: white;
+}
+
+.sent-messages-table tbody tr:nth-child(even) {
+    background-color: #F4F7FC;
+}
+
+.sent-messages-table tbody tr td {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: var(--dark-gray);
+    padding: 11.76px 5px 11.76px 5px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.sent-messages-table tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 3.5px;
+}
+
+.sent-messages-table tbody tr:last-child td:last-child {
+    border-radius: 0 0 3.5px 0;
+}
+
+/* sent messages table css end */

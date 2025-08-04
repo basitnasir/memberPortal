@@ -1,0 +1,70 @@
+.manage-products-section {
+    padding-top: 40px;
+}
+
+.inquiries-filter-box {
+    width: 400px;
+}
+
+.section-top {
+    margin-bottom: 18px;
+}
+
+.manage-products-table-filter-area {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 13px;
+}
+
+.manage-products-table-filter-area {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 13px;
+}
+
+.manage-products-table-main {
+    background-color: white;
+}
+
+.manage-products-table-filter-area.padd {
+    padding: 14px 20px 15px 20px;
+}
+
+.manage-products-table {
+    width: 100%;
+}
+
+.manage-products-table thead tr th {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 22px;
+    color: var(--dark-gray);
+    padding: 9px 10px 15px;
+}
+
+.manage-products-table thead tr,
+.manage-products-table tbody tr {
+    border-bottom: 1px solid #E5E5E5;
+    transition: all 0.3s;
+}
+
+.manage-products-table tbody tr:hover {
+    background-color: #F4F7FC;
+}
+
+.manage-products-table thead tr th:first-child,
+.manage-products-table tbody tr td:first-child {
+    padding-left: 27px;
+}
+
+.manage-products-table tbody tr td {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: #7E868D;
+    padding: 10px 10px 9px;
+}

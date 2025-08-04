@@ -1,0 +1,231 @@
+/* sidebar css start */
+
+.dashboard-sidebar {
+    height: 100vh;
+    max-width: 250px;
+    width: 100%;
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.dashboard-logo {
+    margin-bottom: 48px;
+    padding: 0 8px;
+}
+
+.author-profile-img {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.author-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 22px;
+    color: var(--dark-gray);
+    margin-bottom: 2px;
+}
+
+.author-designation {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 18px;
+    color: var(--dark-gray);
+}
+
+.author-proflle-area {
+    text-align: center;
+    margin-bottom: 18px;
+    padding: 0 8px;
+}
+
+.dashboard-nav-link-left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+}
+
+.dashboard-nav-link {
+    padding: 13.5px 18px 13.5px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: #6C757D;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 3.2px;
+}
+
+.dashboard-nav-link.active,
+.dashboard-nav-link.active:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.dashboard-nav-link:hover {
+    background-color: #F4F7FC;
+    color: #212529;
+    font-size: 1.5rem;
+}
+
+.dashboard-nav-link span {
+    line-height: normal;
+}
+
+.dashboard-nav-link i.fa-angle-down,
+.dashboard-nav-sublink i.fa-angle-down {
+    font-size: 1.4rem;
+    color: #6C757D;
+    transform: rotate(-90deg);
+    transition: transform 0.3s;
+}
+
+.dashboard-nav-link.active i.fa-angle-down,
+.dashboard-nav-sublink.active i.fa-angle-down {
+    transform: rotate(0);
+}
+
+.dashboard-nav-link.active i.fa-angle-down,
+.dashboard-nav-link.active .link-icon {
+    color: white;
+}
+
+.dashboard-nav-link .link-icon,
+.dashboard-nav-sublink .link-icon {
+    width: 20px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #6C757D;
+}
+
+.dashboard-nav {
+    flex-grow: 1;
+    overflow: auto;
+    padding: 0 8px;
+}
+
+.dashboard-nav::-webkit-scrollbar {
+    width: 5px;
+}
+
+.dashboard-nav::-webkit-scrollbar-track {
+    background: #F3F6F9;
+    border-radius: 10px;
+}
+
+.dashboard-nav::-webkit-scrollbar-thumb {
+    background: #E3E8ED;
+    border-radius: 10px;
+
+}
+
+.dashboard-nav::-webkit-scrollbar-thumb:hover {
+    background: #E3E8ED;
+}
+
+.dashboard-nav-sublink,
+.dashboard-sm-sublink {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #6C757D;
+    justify-content: space-between;
+    padding: 1px 18px 1px 13px;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.dashboard-sm-sublist {
+    padding-left: 32px;
+}
+
+ul.dashboard-nav-sublist {
+    margin-top: 8px;
+}
+
+.dashboard-nav-subitem.active {
+    background-color: #F4F7FC;
+}
+
+.dashboard-sm-sublist .dashboard-sm-subitem:last-child .dashboard-sm-sublink {
+    margin-bottom: 0;
+}
+
+.dashboard-sm-sublist {
+    padding: 0px 0px 10px 32px;
+    margin-bottom: 12px;
+}
+
+/* sidebar css end */
+
+
+/* siderbar toggle css */
+
+.dashboard-sidebar.active {
+    max-width: 63px;
+}
+
+.dashboard-main-logo {
+    transition: all 0.3s ease-in-out;
+}
+
+.dashboard-sidebar.active .dashboard-main-logo {
+    display: none;
+}
+
+.dashboard-toggle-logo {
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    display: none;
+}
+
+.dashboard-sidebar.active .dashboard-toggle-logo {
+    opacity: 1;
+    display: block;
+}
+
+.dashboard-sidebar.active .author-name,
+.dashboard-sidebar.active .author-designation,
+.dashboard-sidebar.active .dashboard-nav-link span,
+.dashboard-sidebar.active .dashboard-nav-link .fa-angle-down,
+.dashboard-sidebar.active .dashboard-nav-sublink {
+    display: none;
+}
+
+.dashboard-sidebar.active .author-profile-img {
+    height: 41px;
+    width: 41px;
+}
+
+.dashboard-sidebar.active .dashboard-nav-link.active, .dashboard-sidebar.active .dashboard-nav-link.active:hover {
+    background-color: transparent;
+    color: #6C757D;
+}
+
+.dashboard-sidebar.active .dashboard-nav-link.active .link-icon {
+    color: var(--primary-color);
+}
+
+.dashboard-sidebar.active .dashboard-nav-link {
+    padding: 13.5px 10px 13.5px 10px;
+}

@@ -1,0 +1,115 @@
+.manage-product-group-section {
+    margin-top: 40px;
+}
+
+.section-top {
+    margin-bottom: 20px;
+}
+
+.product-group-main {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+    height: 100%;
+}
+
+.product-group-form-main {
+    background: #FFFFFF;
+    border-radius: 3.5px;
+    padding: 17px 13px 38px;
+    max-width: 391px;
+    width: 100%;
+}
+
+.product-group-form-main form {
+    padding: 0 32px 0 19px;
+}
+
+.form-label {
+    margin-bottom: 10px;
+}
+
+.formgroup-area {
+    margin-bottom: 26px;
+}
+
+.manage-products-table-main {
+    padding: 15px 7px 30px;
+    background: #FFFFFF;
+    border-radius: 3.5px;
+    min-height: 640px;
+    flex-grow: 1;
+}
+
+.manage-products-table {
+    width: 100%;
+}
+
+.manage-products-table thead tr th {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 22px;
+    color: var(--dark-gray);
+    padding: 9px 10px 15px;
+}
+
+.manage-products-table thead tr,
+.manage-products-table tbody tr {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.manage-products-table tbody tr:nth-child(even) {
+    background-color: #F4F7FC;
+}
+
+.manage-products-table thead tr th:first-child {
+    padding-left: 33px;
+}
+
+.manage-products-table tbody tr td {
+    padding: 11px 10px 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: #7E868D;
+}
+
+.manage-products-table tbody tr td:first-child {
+    padding-left: 33px;
+}
+
+
+/* contact group section */
+
+.manage-product-group-section.contact-group-section .form-label {
+    font-size: 1.4rem;
+}
+
+.manage-product-group-section.contact-group-section .sm-title, .manage-product-group-section.contact-group-section .formgroup-area {
+    margin-bottom: 17px;
+}
+
+.manage-product-group-section.contact-group-section  form {
+    padding: 0;
+}
+
+.manage-product-group-section.contact-group-section .form-submit-btn {
+    padding: 8.5px 16px;
+    min-width: auto;
+}
+
+.manage-product-group-section.contact-group-section .product-group-form-main {
+    max-width: 100%;
+}
+
+.manage-product-group-section.contact-group-section .manage-products-table-main {
+    min-height: auto;
+    padding: 17px 20px 20px 37px;
+}
+
+.manage-product-group-section.contact-group-section .manage-products-table tbody tr:last-child {
+    border: none;
+}

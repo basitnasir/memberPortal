@@ -1,0 +1,341 @@
+.section-top {
+    margin-bottom: 50px;
+}
+
+.inquiries-products-box {
+    min-height: 165px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.box {
+    padding: 12px 20px 20px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+    border-radius: 3.2px;
+}
+
+.inq-prod-icon {
+    background: var(--primary-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+
+.inq-prod-count {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 38px;
+    color: var(--dark-gray);
+    margin: 10px 0;
+}
+
+.inq-prod-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: var(--dark-gray);
+}
+
+.table-main {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 3.2px;
+    padding-bottom: 37px;
+}
+
+.dash-main-table {
+    width: 100%;
+}
+
+.dash-main-table tr th {
+    padding: 17px 10px 21px 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 22px;
+    color: var(--dark-gray);
+    vertical-align: middle;
+    background-color: white;
+}
+
+.dash-main-table tr td {
+    padding: 12px 10px 12px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: #7E868D;
+    vertical-align: middle;
+    height: 48px;
+    background-color: white;
+}
+
+.dash-main-table tr td a {
+    color: #7E868D;
+}
+
+.dash-main-table tr:nth-child(odd) td {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #DEE2E6;
+}
+
+.premium-services {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 3.2px;
+    padding: 20px 15px 20px 15px;
+}
+
+ul.premium-ser-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 11px 7px;
+}
+
+.posting-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #3E4676;
+    line-height: normal;
+}
+
+.posting-progress-label {
+    font-family: var(--hindVadodara-fonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: var(--primary-color);
+    display: block;
+    margin-bottom: 12px;
+}
+
+.progress.posting-progress {
+    border-radius: 0;
+    height: 12px;
+    background-color: #F4F7FC;
+}
+
+.progress.posting-progress .progress-bar {
+    background-color: var(--primary-color);
+}
+
+.posting-progress-area-btm .posting-progress-label {
+    font-family: var(--roboto-fonts);
+    color: #6C757D;
+    margin-bottom: 0;
+    width: 36%;
+}
+
+.posting-progress-area-btm .progress.posting-progress .progress-bar {
+    background-color: #6C757D;
+}
+
+.posting-progress-area-btm .progress.posting-progress {
+    width: 10%;
+}
+
+.posting-progress-area-btm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 21.5px;
+}
+
+.posting-progress-area-btm .progress.posting-progress {
+    width: 63.71%;
+}
+
+.browser-usage-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2rem;
+    color: var(--dark-gray);
+}
+
+.browser-usage-list {
+    padding-left: 24px;
+    margin-top: 10px;
+}
+
+.browser-usage-list li {
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.browser-usage-list li::before {
+    content: " ";
+    position: absolute;
+    left: -15px;
+    top: 8px;
+    width: 4px;
+    height: 4px;
+    background-color: #6C757D;
+    border-radius: 50%;
+}
+
+.for-buyers {
+    margin-bottom: 25px;
+}
+
+.browser-usage.box {
+    padding-right: 60px;
+    min-height: 506px;
+}
+
+.dashboard-tabs-area .nav-tabs {
+    border: none;
+    gap: 3px;
+    justify-content: space-between;
+}
+
+.dashboard-tabs-area .nav-tabs li.nav-item {
+    width: 49.6%;
+}
+
+.dashboard-tabs-area .nav-tabs .nav-link {
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #606060;
+    padding: 16px 10px;
+}
+
+.dashboard-tabs-area .nav-tabs .nav-link.active {
+    background-color: var(--primary-color);
+}
+
+.dashboard-tabs-list {
+    padding: 15px 20px 15px 11px;
+    list-style: decimal;
+    padding-left: 23px;
+    min-height: 206px;
+}
+
+.dashboard-tabs-list li::marker {
+    color: #6C757D;
+    font-size: 1.4rem;
+}
+
+.dashboard-tabs-area {
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+    border-radius: 3.2px;
+    height: 100%;
+}
+
+.dashboard-main-lg-box {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+    border-radius: 3.2px;
+    padding: 35px 31px 33px;
+}
+
+.lg-box-sm-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 22px;
+    color: #D72026;
+}
+
+.cus-ser-list {
+    margin: 19px 0 33px;
+    padding-left: 4px;
+}
+
+.cus-ser-link {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.cus-ser-link i {
+    font-size: 2.5rem;
+    color: #D72026;
+}
+
+.cus-ser-item {
+    margin-bottom: 17px;
+}
+
+.cus-ser-item:last-child {
+    margin-bottom: 0;
+}
+
+.dash-pri-btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+    padding: 6px 16px;
+    min-width: 129px;
+    background: linear-gradient(90deg, #E32228 0%, #D30E16 98.66%);
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    min-height: 32px;
+    align-content: center;
+}
+
+.dash-pri-btn:hover {
+    background: var(--dark-gray);
+}
+
+.cus-ser-btns {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 17px;
+}
+
+.brdr-right {
+    border-right: 2px solid #D9D9D9;
+}
+
+.lg-box-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 28px;
+    color: #D72026;
+    margin-bottom: 19px;
+}
+
+.dashboard-lg-box-right .dash-pri-btn {
+    font-size: 1.6rem;
+    line-height: normal;
+}
+
+.customer-ser-img {
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+}
+
+.dashboard-lg-box-right {
+    padding-left: 70px;
+}

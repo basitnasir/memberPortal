@@ -1,0 +1,122 @@
+.inquiries-section {
+    padding-top: 40px;
+}
+
+.section-top {
+    margin-bottom: 22px;
+}
+
+.inquiries-table-area {
+    background: #FFFFFF;
+    border-radius: 3.5px;
+    padding: 0 0 34px;
+}
+
+.star-icon {
+    font-size: 1.35rem;
+    color: #D1D3D4;
+}
+
+table.inquiries-table {
+    width: 100%;
+}
+
+.inquiries-table tr td {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 22px;
+    color: #7E868D;
+    padding: 11.5px 5px 11.5px 5px;
+    vertical-align: middle;
+}
+
+.inquiries-table tr td:first-child {
+    padding-left: 27px;
+}
+
+.inquiries-table tr td:last-child {
+    padding-right: 36px;
+}
+
+.inquiries-table tr {
+    border-bottom: 1px solid #E5E5E5;
+    transition: all 0.3s ease;
+}
+
+.inquiries-table tr:hover {
+    background-color: #F4F7FC;
+}
+
+.status {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: normal;
+    text-align: center;
+    color: #454545;
+    display: inline-block;
+    padding: 2px 0px;
+    min-width: 62px;
+    border-radius: 3px;
+}
+
+.status.read {
+    background: rgba(43, 202, 109, 0.24);
+}
+
+.status.unread {
+    background: #FFC5C5;
+}
+
+.table-country-flag {
+    height: 22px;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3px;
+    display: flex;
+}
+
+.inquiries-table tr th:first-child {
+    padding-left: 27px;
+}
+
+.inquiries-table tr th {
+    padding: 10px 5px 13px;
+    vertical-align: middle;
+}
+
+.inquiries-table-top .arrow-down {
+    font-size: 1.2rem;
+    color: #212529;
+}
+
+.inquiries-filter-select:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.inquiries-table-top {
+    padding: 10px 10px 13px 27px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+
+.inquiries-checkbox-top-left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 14px;
+}
+
+.inquiries-checkbox-top-right {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
