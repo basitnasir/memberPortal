@@ -1,7 +1,8 @@
 <?php 
-    $code_of_conduct_css = "./assets/css/code-of-conduct.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/code-of-conduct.css">
 
     <main class="main">
         <section class="code-of-conduct-section">

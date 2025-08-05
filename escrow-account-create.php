@@ -1,7 +1,8 @@
 <?php 
-    $escrow_account_css = "./assets/css/escrow-account-create.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/escrow-account-create.css">
 
     <main class="main">
         <section class="escrow-account-section">

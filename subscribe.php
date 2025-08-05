@@ -1,7 +1,8 @@
 <?php 
-    $subscribe_css = "./assets/css/subscribe.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/subscribe.css">
 
     <main class="main">
         <section class="subscribe-section">

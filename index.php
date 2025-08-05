@@ -1,7 +1,8 @@
 <?php 
-    $dashboard_css = "./assets/css/dashboard.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/dashboard.css">
 
     <main class="main">
         <section class="dashboard-main-section">

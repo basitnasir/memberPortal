@@ -1,9 +1,7 @@
 <?php 
-    $certification_trademark_css = "./assets/css/certification-trademark.css";
     include './includes/header.php'; 
 ?>
-
-
+<link rel="stylesheet" href="./assets/css/certification-trademark.css">
 
     <main class="main">
         <section class="certification-trademark-section">

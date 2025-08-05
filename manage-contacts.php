@@ -1,9 +1,9 @@
 <?php 
-    $manage_contact_css = "./assets/css/manage-contact.css";
-    $country_flag_css = "./assets/css/country-flag.css";
     include './includes/header.php'; 
 ?>
 
+<link rel="stylesheet" href="./assets/css/manage-contact.css">
+<link rel="stylesheet" href="./assets/css/country-flag.css">
 
 
     <main class="main">

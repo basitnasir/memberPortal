@@ -1,7 +1,8 @@
 <?php 
-    $manage_products_css = "./assets/css/manage-products.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/manage-products.css">
 
     <main class="main">
         <section class="manage-products-section">
@@ -581,6 +582,7 @@
     </main>
         
 <?php 
-$inbox_inquiries_js = "./assets/js/inbox-inquiries.js";
 include './includes/footer.php'; 
 ?>
+
+<script src="./assets/js/inbox-inquiries.js"></script>

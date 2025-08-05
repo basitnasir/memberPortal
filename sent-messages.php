@@ -1,8 +1,9 @@
 <?php 
-    $sent_messages_css = "./assets/css/sent-messages.css";
-    $pagination_css = "./assets/css/pagination.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/sent-messages.css">
+<link rel="stylesheet" href="./assets/css/pagination.css">
 
     <main class="main">
         <section class="sent-messages-section">

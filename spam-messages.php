@@ -1,8 +1,9 @@
 <?php 
-    $inquiries_css = "./assets/css/inbox-inquiries.css";
-    $country_flag_css = "./assets/css/country-flag.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/inbox-inquiries.css">
+<link rel="stylesheet" href="./assets/css/country-flag.css">
 
     <main class="main">
         <section class="inquiries-section">
@@ -232,6 +233,7 @@
     </main>
         
 <?php 
-$inbox_inquiries_js = "./assets/js/inbox-inquiries.js";
 include './includes/footer.php'; 
 ?>
+
+<script src="./assets/js/inbox-inquiries.js"></script>

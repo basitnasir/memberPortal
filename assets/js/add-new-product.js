@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const imgPreview = document.querySelector(".product-img");
     const removeBtn = document.querySelector(".remove-btn");
     const errorMsg = document.querySelector(".upload-error");
-    
+
     const clearAll = () => {
         fileInput.value = "";
         imgPreview.src = "";
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
         errorMsg.textContent = "";
 
         if (!file) return;
-        
+
         if (!["image/jpeg", "image/jpg", "image/png"].includes(file.type)) {
             errorMsg.textContent = "Only jpeg, jpg, and png formats are allowed.";
             fileInput.value = "";
@@ -156,3 +156,83 @@ function addMoreFields() {
     const container = document.querySelector('.fields-container');
     container.appendChild(clone);
 }
+
+// Cascading Select Functionality
+$(document).ready(function () {
+    // Sample data for subcategories
+    const categoryData = {
+        '1': ['Fruits & Vegetables', 'Grains & Cereals', 'Livestock', 'Seeds & Plants'],
+        '2': ['Men\'s Clothing', 'Women\'s Clothing', 'Children\'s Clothing', 'Accessories'],
+        '3': ['Cars', 'Motorcycles', 'Auto Parts', 'Tires'],
+        '4': ['Skincare', 'Makeup', 'Hair Care', 'Fragrances'],
+        '5': ['Consulting', 'Marketing', 'Legal Services', 'Financial Services'],
+        '6': ['Industrial Chemicals', 'Organic Chemicals', 'Inorganic Chemicals', 'Specialty Chemicals'],
+        '7': ['Laptops', 'Desktops', 'Software', 'Networking Equipment'],
+        '8': ['Building Materials', 'Real Estate', 'Construction Equipment', 'Architecture Services'],
+        '9': ['Mobile Phones', 'Tablets', 'Audio Equipment', 'Gaming Devices'],
+        '10': ['CVD Equipment', 'CVD Materials', 'CVD Services', 'CVD Components'],
+        '11': ['Natural Diamonds', 'Synthetic Diamonds', 'Diamond Jewelry', 'Diamond Tools'],
+        '12': ['Cables & Wires', 'Switches', 'Transformers', 'Generators'],
+        '13': ['Solar Energy', 'Wind Energy', 'Oil & Gas', 'Nuclear Energy'],
+        '14': ['Water Treatment', 'Air Purification', 'Waste Management', 'Environmental Consulting'],
+        '15': ['Jewelry', 'Bags & Purses', 'Belts', 'Watches'],
+        '16': ['Aquarium Equipment', 'Fish Food', 'Live Fish', 'Aquatic Plants'],
+        '17': ['Beverages', 'Snacks', 'Dairy Products', 'Meat & Poultry'],
+        '18': ['Office Furniture', 'Home Furniture', 'Outdoor Furniture', 'Furniture Accessories'],
+        '19': ['Handicrafts', 'Decorative Items', 'Gift Sets', 'Seasonal Gifts'],
+        '20': ['Tools', 'Fasteners', 'Hardware Accessories', 'Building Hardware']
+    };
+
+    const subCategoryData = {
+        'Fruits & Vegetables': ['Fresh Fruits', 'Fresh Vegetables', 'Dried Fruits', 'Frozen Vegetables'],
+        'Men\'s Clothing': ['Shirts', 'Pants', 'Suits', 'Casual Wear'],
+        'Cars': ['Sedans', 'SUVs', 'Hatchbacks', 'Luxury Cars'],
+        'Skincare': ['Face Cream', 'Body Lotion', 'Sunscreen', 'Anti-aging'],
+        'Laptops': ['Gaming Laptops', 'Business Laptops', 'Ultrabooks', 'Budget Laptops']
+    };
+
+    // First level select change
+    $('#category-level-1').on('change', function () {
+        const selectedValue = $(this).val();
+        $('#category-3-container').hide();
+
+        if (selectedValue && categoryData[selectedValue] && categoryData[selectedValue].length > 0) {
+            $('#loader-2').show();
+            $('#category-level-2').hide();
+            $('#category-2-container').show();
+
+            setTimeout(function () {
+                $('#loader-2').hide();
+                let options = '<option></option>';
+                categoryData[selectedValue].forEach(function (category) {
+                    options += `<option value="${category}">${category}</option>`;
+                });
+                $('#category-level-2').html(options).show();
+            }, 2000);
+        } else {
+            $('#category-2-container').hide();
+        }
+    });
+
+    // Second level select change
+    $('#category-level-2').on('change', function () {
+        const selectedValue = $(this).val();
+
+        if (selectedValue && subCategoryData[selectedValue] && subCategoryData[selectedValue].length > 0) {
+            $('#loader-3').show();
+            $('#category-level-3').hide();
+            $('#category-3-container').show();
+
+            setTimeout(function () {
+                $('#loader-3').hide();
+                let options = '<option value=""></option>';
+                subCategoryData[selectedValue].forEach(function (category) {
+                    options += `<option value="${category}">${category}</option>`;
+                });
+                $('#category-level-3').html(options).show();
+            }, 2000);
+        } else {
+            $('#category-3-container').hide();
+        }
+    });
+});

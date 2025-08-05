@@ -1,7 +1,9 @@
 <?php 
-    $manage_products_group_css = "./assets/css/manage-product-group.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/manage-product-group.css">
+
 
     <main class="main">
         <section class="manage-product-group-section">
@@ -238,10 +240,3 @@
 <?php 
 include './includes/footer.php'; 
 ?>
-
-<script>
-    document.getElementById("product-thumnail").addEventListener("change", function () {
-        const fileName = this.files[0] ? this.files[0].name : "No File chosen";
-        document.getElementById("thumbnail-file-name").textContent = fileName;
-    });
-</script>

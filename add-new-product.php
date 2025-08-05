@@ -1,8 +1,9 @@
 <?php 
-    $add_new_product_css = "./assets/css/add-new-product.css";
-    $select2_css = "https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/add-new-product.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css">
 
 
 
@@ -64,48 +65,78 @@
                                     </form>
                                     <h5 class="sm-title mb-12px">Select category from the list below:<span class="primary-color">*</span></h5>
                                     <div class="product-category-list">
-                                        <select class="form-select product-category-select" size="20" aria-label="Default select example">
-                                            <option value="1">Agriculture</option>
-                                            <option value="2">Apparel</option>
-                                            <option value="3">Automobiles  & Motorcycles</option>
-                                            <option value="4">Beauty & Personal Care</option>
-                                            <option value="5">Business Services</option>
-                                            <option value="6">Chemicals</option>
-                                            <option value="7">Computer Hardware & Software</option>
-                                            <option value="8">Construction & Real Estate</option>
-                                            <option value="9">Consumer Electronic</option>
-                                            <option value="10">CVD</option>
-                                            <option value="11">Diamond</option>
-                                            <option value="12">Electrical Equipment Supplies</option>
-                                            <option value="13">Energy</option>
-                                            <option value="14">Environment</option>
-                                            <option value="15">Fashion Accessories</option>
-                                            <option value="16">Fish & Aquarium</option>
-                                            <option value="17">Food & Beverage</option>
-                                            <option value="18">Furniture</option>
-                                            <option value="19">Gifts & Crafts</option>
-                                            <option value="20">Hardware</option>
-                                            <option value="21">Agriculture</option>
-                                            <option value="22">Apparel</option>
-                                            <option value="23">Automobiles  & Motorcycles</option>
-                                            <option value="24">Beauty & Personal Care</option>
-                                            <option value="25">Business Services</option>
-                                            <option value="26">Chemicals</option>
-                                            <option value="27">Computer Hardware & Software</option>
-                                            <option value="28">Construction & Real Estate</option>
-                                            <option value="29">Consumer Electronic</option>
-                                            <option value="30">CVD</option>
-                                            <option value="31">Diamond</option>
-                                            <option value="32">Electrical Equipment Supplies</option>
-                                            <option value="33">Energy</option>
-                                            <option value="34">Environment</option>
-                                            <option value="35">Fashion Accessories</option>
-                                            <option value="36">Fish & Aquarium</option>
-                                            <option value="37">Food & Beverage</option>
-                                            <option value="38">Furniture</option>
-                                            <option value="39">Gifts & Crafts</option>
-                                            <option value="40">Hardware</option>
-                                        </select>
+                                        <div class="row">
+                                            <!-- First Select - Always Visible -->
+                                            <div class="col-12 col-lg-4">
+                                                <select class="form-select product-category-select" id="category-level-1" size="20" aria-label="Category Level 1">
+                                                    <option value="1">Agriculture</option>
+                                                    <option value="2">Apparel</option>
+                                                    <option value="3">Automobiles & Motorcycles</option>
+                                                    <option value="4">Beauty & Personal Care</option>
+                                                    <option value="5">Business Services</option>
+                                                    <option value="6">Chemicals</option>
+                                                    <option value="7">Computer Hardware & Software</option>
+                                                    <option value="8">Construction & Real Estate</option>
+                                                    <option value="9">Consumer Electronic</option>
+                                                    <option value="10">CVD</option>
+                                                    <option value="11">Diamond</option>
+                                                    <option value="12">Electrical Equipment Supplies</option>
+                                                    <option value="13">Energy</option>
+                                                    <option value="14">Environment</option>
+                                                    <option value="15">Fashion Accessories</option>
+                                                    <option value="16">Fish & Aquarium</option>
+                                                    <option value="17">Food & Beverage</option>
+                                                    <option value="18">Furniture</option>
+                                                    <option value="19">Gifts & Crafts</option>
+                                                    <option value="20">Hardware</option>
+                                                </select>
+                                            </div>
+                                            
+                                            <!-- Second Select - Hidden Initially -->
+                                            <div class="col-12 col-lg-4 position-relative" id="category-2-container" style="display: none;">
+                                                <div id="loader-2" class="loader-container" style="display: none;">
+                                                    <div class="spinner"></div>
+                                                </div>
+                                                <select class="form-select product-category-select" id="category-level-2" size="20" aria-label="Category Level 2">
+                                                    <option value=""></option>
+                                                </select>
+                                            </div>
+                                            
+                                            <!-- Third Select - Hidden Initially -->
+                                            <div class="col-12 col-lg-4 position-relative" id="category-3-container" style="display: none;">
+                                                <div id="loader-3" class="loader-container" style="display: none;">
+                                                    <div class="spinner"></div>
+                                                </div>
+                                                <select class="form-select product-category-select" id="category-level-3" size="20" aria-label="Category Level 3">
+                                                    <option value=""></option>
+                                                </select>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <select class="form-select product-category-select d-none"  size="10" aria-label="Category Level 4">
+                                                    <option value="1">Agriculture Food >> Agriculture</option>
+                                                    <option value="2">Agriculture Food >> Agriculture >> Agricultural Growing Media</option>
+                                                    <option value="3">Agriculture Food >> Agriculture >> Agricultural Waste</option>
+                                                    <option value="4">Agriculture Food >> Agriculture >> Animal Products</option>
+                                                    <option value="5">Agriculture Food >> Agriculture >> Beans</option>
+                                                    <option value="6">Agriculture Food >> Agriculture >> Cocoa Beans</option>
+                                                    <option value="7">Agriculture Food >> Agriculture >> Coffee Beans</option>
+                                                    <option value="8">Agriculture Food >> Agriculture >> DDGS</option>
+                                                    <option value="9">Agriculture Food >> Agriculture >> Edible Oil</option>
+                                                    <option value="10">Agriculture Food >> Agriculture >> Farm Machinery Equipment</option>
+                                                    <option value="11">Agriculture Food >> Agriculture >> Feed</option>
+                                                    <option value="12">Agriculture Food >> Agriculture >> Food and Beverages</option>
+                                                    <option value="13">Agriculture Food >> Agriculture >> Fresh Seafood</option>
+                                                    <option value="14">Agriculture Food >> Agriculture >> Fruit</option>
+                                                    <option value="15">Agriculture Food >> Agriculture >> Grain</option>
+                                                    <option value="16">Agriculture Food >> Agriculture >> Herbal Cigars Cigarettes</option>
+                                                    <option value="17">Agriculture Food >> Agriculture >> Mushrooms Truffles</option>
+                                                    <option value="18">Agriculture Food >> Agriculture >> Nuts Kernels</option>
+                                                    <option value="19">Agriculture Food >> Agriculture >> Organic Produce</option>
+                                                    <option value="20">Agriculture Food >> Agriculture >> Ornamental Plants</option>
+                                                </select>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="add-new-product-box" id="basic-information">
@@ -585,12 +616,9 @@
     </main>
         
 <?php 
-$select2_js = "https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js";
-$text_editor_js = "https://cdn.ckeditor.com/4.22.1/full/ckeditor.js";
-$add_new_product_js = "./assets/js/add-new-product.js";
-include './includes/footer.php'; 
+    include './includes/footer.php'; 
 ?>
 
-<script>
-
-</script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.22.1/full/ckeditor.js"></script>
+<script src="./assets/js/add-new-product.js"></script>

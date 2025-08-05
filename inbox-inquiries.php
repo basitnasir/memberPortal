@@ -1,8 +1,9 @@
 <?php 
-    $inquiries_css = "./assets/css/inbox-inquiries.css";
-    $country_flag_css = "./assets/css/country-flag.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/inbox-inquiries.css">
+<link rel="stylesheet" href="./assets/css/country-flag.css">
 
     <main class="main">
         <section class="inquiries-section">
@@ -53,19 +54,19 @@
                             <table class="inquiries-table">
                                 <tbody>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" checked type="checkbox" name="" id="inquiries-check-1">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-1">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon yellow"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Machine Parts Inquiry Buyer And Importer</strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             Product Basic InformationProduct Name:Marine Hardware Manufacturer 
                                         </td>
                                         <td>
@@ -87,19 +88,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" checked type="checkbox" name="" id="inquiries-check-2">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-2">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon yellow"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Machine Parts Inquiry Buyer And Importer</strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             Product Basic InformationProduct Name:Marine Hardware Manufacturer 
                                         </td>
                                         <td>
@@ -121,19 +122,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" checked type="checkbox" name="" id="inquiries-check-3">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-3">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon yellow"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Machine Parts Inquiry</strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             Product Basic InformationProduct Name:Marine Hardware Manufacturer 
                                         </td>
                                         <td>
@@ -155,19 +156,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" type="checkbox" name="" id="inquiries-check-4">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-4">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Machine Parts Inquiry Buyer And </strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             Hardware Manufacturer AISI316 Stainless Steel Marine Pa.  
                                         </td>
                                         <td>
@@ -189,19 +190,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" type="checkbox" name="" id="inquiries-check-5">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-5">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Inquiry Buyer And Importer... </strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             Product Basic InformationProduct Name:Marine 
                                         </td>
                                         <td>
@@ -223,19 +224,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" type="checkbox" name="" id="inquiries-check-6">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-6">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Machine Parts Inquiry Buyer And Importer... </strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             Hardware Manufacturer AISI316 Stainless Steel Marine Pa.
                                         </td>
                                         <td>
@@ -257,19 +258,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" type="checkbox" name="" id="inquiries-check-7">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-7">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Parts Inquiry Buyer And Importer... </strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             Product Basic InformationProduct Name:Marine Hardware 
                                         </td>
                                         <td>
@@ -291,19 +292,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" type="checkbox" name="" id="inquiries-check-8">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-8">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Inquiry Buyer And Importer...</strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             Product Basic InformationProduct Name:Marine  
                                         </td>
                                         <td>
@@ -325,19 +326,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" type="checkbox" name="" id="inquiries-check-9">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-9">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Parts Inquiry Buyer And</strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             Product Basic InformationProduct Name:Marine Hardware Manufacturer  
                                         </td>
                                         <td>
@@ -359,19 +360,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" type="checkbox" name="" id="inquiries-check-10">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-10">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Inquiry Buyer And </strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             Product Basic InformationProduct Name:Marine Hardware Manufacturer AISI316 Stainless  
                                         </td>
                                         <td>
@@ -393,19 +394,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" type="checkbox" name="" id="inquiries-check-11">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-11">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Buyer And Importer... </strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             Product Basic InformationProduct Name:Marine Hardware Manufacturer AISI316 Stainless Steel  
                                         </td>
                                         <td>
@@ -427,19 +428,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" type="checkbox" name="" id="inquiries-check-12">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-12">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Parts Inquiry Buyer And Importer... </strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             AISI316 Stainless Steel Marine Pa.
                                         </td>
                                         <td>
@@ -461,19 +462,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" type="checkbox" name="" id="inquiries-check-13">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-13">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Parts Inquiry Buyer And Importer... </strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             AISI316 Stainless Steel Marine Pa.
                                         </td>
                                         <td>
@@ -495,19 +496,19 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td width="3.5%">
+                                        <td>
                                             <input class="inquiries-checkbox" type="checkbox" name="" id="inquiries-check-14">
                                             <label class="inquiries-checkbox-label" for="inquiries-check-14">
                                                 <img class="img-fluid" src="./assets/images/check-img.svg" alt="">
                                             </label>
                                         </td>
-                                        <td width="2%">
+                                        <td>
                                             <i class="bi bi-star-fill star-icon"></i>
                                         </td>
-                                        <td width="20%">
+                                        <td>
                                             <strong class="dark-gray">Parts Inquiry Buyer And Importer... </strong>
                                         </td>
-                                        <td width="42%">
+                                        <td>
                                             AISI316 Stainless Steel Marine Pa.
                                         </td>
                                         <td>
@@ -538,6 +539,7 @@
     </main>
         
 <?php 
-$inbox_inquiries_js = "./assets/js/inbox-inquiries.js";
 include './includes/footer.php'; 
 ?>
+
+<script src="./assets/js/inbox-inquiries.js"></script>

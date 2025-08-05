@@ -1,7 +1,8 @@
 <?php 
-    $company_introduction_css = "./assets/css/company-introduction.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/company-introduction.css">
 
 
 
@@ -93,9 +94,9 @@
     </main>
         
 <?php 
-$text_editor_js = "https://cdn.ckeditor.com/4.22.1/full/ckeditor.js";
-$other_add_js = "./assets/js/other-add.js";
 include './includes/footer.php'; 
 ?>
 
 
+<script src="https://cdn.ckeditor.com/4.22.1/full/ckeditor.js"></script>
+<script src="./assets/js/other-add.js"></script>

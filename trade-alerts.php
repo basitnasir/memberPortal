@@ -1,7 +1,8 @@
 <?php 
-    $buy_offer_css = "./assets/css/buy-offer.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/buy-offer.css">
 
     <main class="main">
         <section class="trade-alerts-section">

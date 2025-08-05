@@ -1,8 +1,9 @@
 <?php 
-    $add_new_product_css = "./assets/css/add-new-product.css";
-    $company_profile_css = "./assets/css/company-profile.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/add-new-product.css">
+<link rel="stylesheet" href="./assets/css/company-profile.css">
 
 
 

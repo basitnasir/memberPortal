@@ -1,7 +1,8 @@
 <?php 
-    $change_password_css = "./assets/css/change-password.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/change-password.css">
 
     <main class="main">
         <section class="change-password-section">

@@ -1,7 +1,6 @@
-<?php 
-    $dashboard_css = "./assets/css/profile.css";
-    include './includes/header.php'; 
-?>
+<?php include './includes/header.php'; ?>
+
+<link rel="stylesheet" href="./assets/css/profile.css">
 
     <main class="main">
         <section class="profile-section">

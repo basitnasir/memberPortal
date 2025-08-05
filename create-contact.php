@@ -1,7 +1,8 @@
 <?php 
-    $create_contact_css = "./assets/css/create-contact.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/create-contact.css">
 
 
 
@@ -123,8 +124,7 @@
     </main>
         
 <?php 
-$input_mask_js = "./assets/js/input-mask.js";
 include './includes/footer.php'; 
 ?>
 
-
+<script src="./assets/js/input-mask.js"></script>

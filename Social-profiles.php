@@ -1,8 +1,8 @@
 <?php 
-    $social_profiles_css = "./assets/css/social-profiles.css";
     include './includes/header.php'; 
 ?>
 
+<link rel="stylesheet" href="./assets/css/social-profiles.css">
 
 
     <main class="main">

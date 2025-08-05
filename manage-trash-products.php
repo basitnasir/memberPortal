@@ -1,7 +1,8 @@
 <?php 
-    $manage_products_group_css = "./assets/css/manage-product-group.css";
     include './includes/header.php'; 
 ?>
+
+<link rel="stylesheet" href="./assets/css/manage-product-group.css">
 
     <main class="main">
         <section class="manage-product-group-section">

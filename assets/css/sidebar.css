@@ -225,7 +225,8 @@ ul.dashboard-nav-sublist {
     width: 41px;
 }
 
-.dashboard-sidebar.active .dashboard-nav-link.active, .dashboard-sidebar.active .dashboard-nav-link.active:hover {
+.dashboard-sidebar.active .dashboard-nav-link.active,
+.dashboard-sidebar.active .dashboard-nav-link.active:hover {
     background-color: transparent;
     color: #6C757D;
 }
